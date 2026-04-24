@@ -43,6 +43,7 @@ interface GachaState {
   user: User | null;
   points: number;
   products: Product[];
+  notifications: NotificationItem[];
   selectedProduct: Product | null;
   drawResult: Product | null;
   isDrawing: boolean;
