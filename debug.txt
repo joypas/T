@@ -1,0 +1,50 @@
+<c r="A1" s="1"/><c r="B1" s="2"/><c r="C1" s="2"/><c r="D1" s="2"/><c r="E1" s="3"/><c r="F1" s="3"/><c r="G1" s="4"/><c r="H1" s="4"/><c r="I1" s="4"/><c r="J1" s="4"/><c r="K1" s="4"/><c r="L1" s="4"/><c r="M1" s="4"/><c r="N1" s="4"/><c r="O1" s="4"/><c r="P1" s="5"/><c r="Q1" s="5"/></row><row r="2" ht="16.5" customHeight="1"><c r="A2" s="1"/><c r="B2" s="6" t="s"><v>0</v></c> => [별지]
+<c r="C2" s="2"/><c r="D2" s="2"/><c r="E2" s="3"/><c r="F2" s="3"/><c r="G2" s="4"/><c r="H2" s="4"/><c r="I2" s="4"/><c r="J2" s="4"/><c r="K2" s="4"/><c r="L2" s="4"/><c r="M2" s="4"/><c r="N2" s="4"/><c r="O2" s="4"/><c r="P2" s="5"/><c r="Q2" s="5"/></row><row r="3" ht="16.5" customHeight="1"><c r="A3" s="1"/><c r="B3" s="2"/><c r="C3" s="2"/><c r="D3" s="2"/><c r="E3" s="3"/><c r="F3" s="7" t="s"><v>1</v></c> => 가챠 상품 리스트
+<c r="G3" s="8"/><c r="H3" s="8"/><c r="I3" s="9"/><c r="J3" s="10"/><c r="K3" s="10"/><c r="L3" s="11"/><c r="M3" s="4"/><c r="N3" s="4"/><c r="O3" s="4"/><c r="P3" s="5"/><c r="Q3" s="5"/></row><row r="4" ht="21.0" customHeight="1"><c r="A4" s="1"/><c r="B4" s="2"/><c r="C4" s="2"/><c r="D4" s="2"/><c r="E4" s="3"/><c r="F4" s="12"/><c r="G4" s="13"/><c r="H4" s="13"/><c r="I4" s="13"/><c r="J4" s="13"/><c r="K4" s="13"/><c r="L4" s="4"/><c r="M4" s="4"/><c r="N4" s="4"/><c r="O4" s="4"/><c r="P4" s="14" t="s"><v>2</v></c> => 품목수
+<c r="Q4" s="5"/></row><row r="5" ht="16.5" customHeight="1"><c r="A5" s="1"/><c r="B5" s="2"/><c r="C5" s="2"/><c r="D5" s="2"/><c r="E5" s="3"/><c r="F5" s="3"/><c r="G5" s="4"/><c r="H5" s="4"/><c r="I5" s="4"/><c r="J5" s="4"/><c r="K5" s="4"/><c r="L5" s="4"/><c r="M5" s="4"/><c r="N5" s="4"/><c r="O5" s="4"/><c r="P5" s="14"><v>72.0</v></c> => No Value
+<c r="Q5" s="5"/></row><row r="6" ht="16.5" customHeight="1"><c r="A6" s="1"/><c r="B6" s="2"/><c r="C6" s="2"/><c r="D6" s="2"/><c r="E6" s="3"/><c r="F6" s="3"/><c r="G6" s="4"/><c r="H6" s="4"/><c r="I6" s="4"/><c r="J6" s="4"/><c r="K6" s="4"/><c r="L6" s="4"/><c r="M6" s="4"/><c r="N6" s="4"/><c r="O6" s="4"/><c r="P6" s="5"/><c r="Q6" s="5"/></row><row r="7" ht="21.0" customHeight="1"><c r="A7" s="1"/><c r="B7" s="2"/><c r="C7" s="2"/><c r="D7" s="2"/><c r="E7" s="3"/><c r="F7" s="3"/><c r="G7" s="4"/><c r="H7" s="4"/><c r="I7" s="4"/><c r="J7" s="15" t="str"><f t="shared" ref="J7:L7" si="1">SUBTOTAL(9,J9:J269)</f><v>  11,300 </v></c> => No Value
+<c r="K7" s="15" t="str"><f t="shared" si="1"/><v>  30,100,000 </v></c> => No Value
+<c r="L7" s="16" t="str"><f t="shared" si="1"/><v>  33,110,000 </v></c> => No Value
+<c r="M7" s="4"/><c r="N7" s="16" t="str"><f t="shared" ref="N7:O7" si="2">SUBTOTAL(9,N9:N269)</f><v>  62,700,000 </v></c> => No Value
+<c r="O7" s="16" t="str"><f t="shared" si="2"/><v>  29,590,000 </v></c> => No Value
+<c r="P7" s="17" t="str"><f>SUBTOTAL(9,P9:P269)/P5</f><v>52%</v></c> => No Value
+<c r="Q7" s="17" t="str"><f>SUBTOTAL(9,Q9:Q269)/P5</f><v>48%</v></c> => No Value
+<c r="A8" s="18"/><c r="B8" s="19" t="s"><v>3</v></c> => 업체명
+<c r="C8" s="19" t="s"><v>4</v></c> => 이미지
+<c r="D8" s="19" t="s"><v>5</v></c> => 업체 품명
+<c r="E8" s="20" t="s"><v>6</v></c> => IP
+<c r="F8" s="20" t="s"><v>7</v></c> => 상품명
+<c r="G8" s="21" t="s"><v>8</v></c> => MOQ
+<c r="H8" s="21" t="s"><v>9</v></c> => 발주 수량
+<c r="I8" s="22" t="s"><v>10</v></c> => 판매가
+<c r="J8" s="22" t="s"><v>11</v></c> => 예상 매출
+<c r="K8" s="21" t="s"><v>12</v></c> => 마진가
+<c r="L8" s="21" t="s"><v>13</v></c> => 공급율
+<c r="M8" s="22" t="s"><v>14</v></c> => 마진율
+<c r="N8" s="22" t="s"><v>15</v></c> => 캡슐스토리
+<c r="O8" s="22" t="s"><v>16</v></c> => 산리오
+<c r="P8" s="23" t="s"><v>17</v></c> => 산리오 헬로키티 / I'm Hello Kitty 피규어 컬렉션 [리피트]
+<c r="Q8" s="23" t="s"><v>18</v></c> => 미니어처
+<c r="A9" s="18"><v>1.0</v></c> => No Value
+<c r="B9" s="24" t="s"><v>19</v></c> => Licca / 리카짱 / 미니어쳐 패키지 3대 리카짱 컬렉션
+<c r="C9" s="24"/><c r="D9" s="25"><v>4.904790894619E12</v></c> => No Value
+<c r="E9" s="26" t="s"><v>20</v></c> => 마이멜로디・쿠로미 / 스위트♡프린세스 마스코트  하늘색 프린세스ver. [리피트]
+<c r="F9" s="26" t="s"><v>21</v></c> => Licca / Closet series 베니티백 컬렉션
+<c r="G9" s="27"><v>2000.0</v></c> => No Value
+<c r="H9" s="28" t="str"><f t="shared" ref="H9:H80" si="3">G9*1.1</f><v>  2,200 </v></c> => No Value
+<c r="I9" s="28"><v>200.0</v></c> => No Value
+<c r="J9" s="28"><v>200.0</v></c> => No Value
+<c r="K9" s="28" t="str"><f t="shared" ref="K9:K80" si="4">G9*J9</f><v>  400,000 </v></c> => No Value
+<c r="L9" s="28" t="str"><f t="shared" ref="L9:L80" si="5">H9*J9</f><v>  440,000 </v></c> => No Value
+<c r="M9" s="27"><v>4000.0</v></c> => No Value
+<c r="N9" s="28" t="str"><f t="shared" ref="N9:N80" si="6">J9*M9</f><v>  800,000 </v></c> => No Value
+<c r="O9" s="28" t="str"><f t="shared" ref="O9:O80" si="7">N9-L9</f><v>  360,000 </v></c> => No Value
+<c r="P9" s="29" t="str"><f t="shared" ref="P9:P80" si="8">H9/M9</f><v>55%</v></c> => No Value
+<c r="Q9" s="29" t="str"><f t="shared" ref="Q9:Q80" si="9">O9/N9</f><v>45%</v></c> => No Value
+<c r="A10" s="18"><v>2.0</v></c> => No Value
+<c r="B10" s="24" t="s"><v>19</v></c> => Licca / 리카짱 / 미니어쳐 패키지 3대 리카짱 컬렉션
+<c r="C10" s="24"/><c r="D10" s="25"><v>4.904790079153E12</v></c> => No Value
+<c r="E10" s="26" t="s"><v>22</v></c> => 산리오 / 산리오 캐릭터즈 반짝이는☆풍선 피규어 2
+<c r="F10" s="26" t="s"><v>23</v></c> => 산리오 캐릭터즈 / 발레 리본 피규어
+<c r="G10" s="27"><v>2000.0</v></c> => No Value
+<c r="H10" s="28" t="str"><f t="shared" si="3"/><v>  2,200 </v></c> => No Value
