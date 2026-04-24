@@ -10,14 +10,21 @@ export default function DrawModal() {
   const { isDrawing, drawResult, resetDraw } = useGachaStore();
   const [showShipping, setShowShipping] = useState(false);
 
-  if (!isDrawing && !drawResult) return null;
-
   return (
-    <AnimatePresence>
-      <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm p-4">
-        {isDrawing && !drawResult && (
-          <motion.div
-            initial={{ scale: 0.8, opacity: 0 }}
+    <>
+      <AnimatePresence>
+        {(isDrawing || drawResult) && (
+          <motion.div 
+            key="draw-overlay"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm p-4"
+          >
+            {isDrawing && !drawResult && (
+              <motion.div
+                key="opening-animation"
+                initial={{ scale: 0.8, opacity: 0 }}
             animate={{ 
               scale: [1, 1.1, 1, 1.3, 1.1, 1.5, 1.2, 1.8], 
               rotate: [0, -15, 15, -20, 20, -25, 25, 0] 
@@ -30,18 +37,20 @@ export default function DrawModal() {
           </motion.div>
         )}
 
-        {drawResult && (
-          <>
-            {/* 터지는 효과 (화이트 플래시) */}
-            <motion.div
-              initial={{ opacity: 1 }}
-              animate={{ opacity: 0 }}
-              transition={{ duration: 0.8, ease: "easeOut" }}
-              className="absolute inset-0 bg-white z-[60] pointer-events-none"
-            />
-            
-            <motion.div
-              initial={{ y: 100, opacity: 0, scale: 0.8 }}
+            {drawResult && (
+              <>
+                {/* 터지는 효과 (화이트 플래시) */}
+                <motion.div
+                  key="flash-effect"
+                  initial={{ opacity: 1 }}
+                  animate={{ opacity: 0 }}
+                  transition={{ duration: 0.8, ease: "easeOut" }}
+                  className="absolute inset-0 bg-white z-[60] pointer-events-none"
+                />
+                
+                <motion.div
+                  key="result-card"
+                  initial={{ y: 100, opacity: 0, scale: 0.8 }}
               animate={{ y: 0, opacity: 1, scale: 1 }}
               exit={{ y: 100, opacity: 0 }}
               className="bg-white rounded-3xl p-6 w-full max-w-sm flex flex-col items-center relative overflow-hidden shadow-2xl z-50"
@@ -98,9 +107,11 @@ export default function DrawModal() {
           </motion.div>
           </>
         )}
-      </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
 
       <ShippingModal isOpen={showShipping} onClose={() => setShowShipping(false)} />
-    </AnimatePresence>
+    </>
   );
 }

@@ -62,6 +62,7 @@ export default function EventModal({ isOpen, onClose, eventId }: Props) {
     <AnimatePresence>
       {isOpen && event && (
         <motion.div
+          key="event-modal"
           initial={{ y: '100%' }}
           animate={{ y: 0 }}
           exit={{ y: '100%' }}

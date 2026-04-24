@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "덕스가챠",
+  title: "덕스클럽",
   description: "매장 QR 한 번이면, 휴대폰이 가챠머신이 된다.",
 };
 

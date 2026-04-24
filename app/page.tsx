@@ -106,7 +106,7 @@ export default function Home() {
               <span className="text-lg -ml-0.5 mt-0.5 transform -translate-x-0.5">🦆</span>
             </div>
             <h1 className="text-[1.35rem] font-black italic tracking-tighter text-gray-900 leading-none">
-              DUCKS<span className="text-[#FFEB00] drop-shadow-[0_1px_1px_rgba(0,0,0,0.8)]">GACHA</span>
+              DUCKS<span className="text-[#FFEB00] drop-shadow-[0_1px_1px_rgba(0,0,0,0.8)]">CLUB</span>
             </h1>
           </div>
           <div className="flex items-center gap-2">

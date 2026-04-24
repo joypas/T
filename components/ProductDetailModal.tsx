@@ -25,6 +25,7 @@ export default function ProductDetailModal() {
   return (
     <AnimatePresence>
       <motion.div
+        key="product-detail-modal"
         initial={{ y: '100%' }}
         animate={{ y: 0 }}
         exit={{ y: '100%' }}
